@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 z-30">
+  <div v-show="route.name !== 'index'" class="sticky top-0 z-30">
     <navbar class="w-full flex bg-fuchsia-700 p-4 text-white justify-between items-center">
       <NuxtLink to="/" class="font-bold text-xl">Reynet Billing Information</NuxtLink>
       <div>
